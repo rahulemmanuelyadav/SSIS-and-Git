@@ -11,8 +11,8 @@
   DTS:LocaleID="16393"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="4"
-  DTS:VersionGUID="{235EC2AA-F02E-4E36-92C1-110D8E90072A}">
+  DTS:VersionBuild="5"
+  DTS:VersionGUID="{AC39660F-6184-4930-A594-9B6DE8AC5F2A}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -472,7 +472,7 @@
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{8CB1DC3E-C115-4559-BCA3-33ED79A105DD}"
-          SQLTask:SqlStatementSource="exec [SSIS_and_GIT];" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:SqlStatementSource="exec [SSIS_and_GIT]" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
   </DTS:Executables>
