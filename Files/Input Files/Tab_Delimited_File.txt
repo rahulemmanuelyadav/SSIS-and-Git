@@ -1,0 +1,11 @@
+id	first_name	last_name	salary
+1	Maddy	Roblin	$921.99
+2	Matthiew	Tune	$739.37
+4	Igor	Pothergill	$621.79
+5	Sherie	Palffrey	$611.50
+6	Darcey	Chambers	$224.66
+7	Arri	Guiso	$818.91
+8	Terra	Obert	$612.64
+9	Hartwell	Kausche	$252.12
+10	Henryetta	Hamor	$736.41
+

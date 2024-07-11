@@ -1,0 +1,11 @@
+id|first_name|last_name|salary
+1|Kimmi|Brittin|$593.46
+2|Helsa|Overill|$102.71
+3|Lou|Kirvell|$906.17
+4|Roch|Obee|$585.28
+5|Dulci|Kindleysides|$299.09
+6|Thaddeus|Hindrich|$901.73
+7|Crissy|Immer|$472.19
+8|Franni|DelaField|$848.07
+9|Cher|Ellwell|$990.72
+10|Sosanna|BURWIN|$935.72
