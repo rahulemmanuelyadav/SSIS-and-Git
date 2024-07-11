@@ -11,8 +11,8 @@
   DTS:LocaleID="16393"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="6"
-  DTS:VersionGUID="{FEB3D7DC-C79F-41F5-9BCD-80B6B672539F}">
+  DTS:VersionBuild="7"
+  DTS:VersionGUID="{5AE934DB-E0F4-4DFD-B7D4-31A39158165E}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -467,7 +467,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="Execute SQL Task"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="0">
+      DTS:ThreadHint="1">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -484,7 +484,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="Execute SQL Task 1"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="2">
+      DTS:ThreadHint="0">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -501,7 +501,7 @@
       DTS:LocaleID="-1"
       DTS:ObjectName="Execute SQL Task 2"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="1">
+      DTS:ThreadHint="2">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
@@ -540,6 +540,14 @@
           Size="168,42.6666666666667"
           Id="Package\Execute SQL Task"
           TopLeft="400.624994030222,156.000002936313" />
+        <NodeLayout
+          Size="168,42.6666666666667"
+          Id="Package\Execute SQL Task 1"
+          TopLeft="293.749995622784,258.66666960298" />
+        <NodeLayout
+          Size="168,42.6666666666667"
+          Id="Package\Execute SQL Task 2"
+          TopLeft="293.749995622784,361.333336269646" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
           TopLeft="370.416662289451,115.192983821268">
@@ -574,14 +582,6 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="168,42.6666666666667"
-          Id="Package\Execute SQL Task 1"
-          TopLeft="293.749995622784,258.66666960298" />
-        <NodeLayout
-          Size="168,42.6666666666667"
-          Id="Package\Execute SQL Task 2"
-          TopLeft="293.749995622784,361.333336269646" />
       </GraphLayout>
     </LayoutInfo>
   </Package>
